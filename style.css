@@ -19,12 +19,26 @@ html, body {
 	overflow-x: hidden;
 }
 
+@font-face {
+	font-family: 'interReg';
+	src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'interExBold';
+	src: url('assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+}
+
 .img-100 {
 	width: 100%;
 }
 
 .text-lh-30 {
  line-height: 30px;
+}
+
+.text-bold {
+	font-family: interExBold;
 }
 /* end of reset */
 
@@ -124,7 +138,7 @@ header button {
 
 .news-new .content:last-child {
  border: none;
- padding-botton: 0;
+ padding-bottom: 0;
 }
 /* end of news new */
 
@@ -135,7 +149,11 @@ header button {
 }
 
 .category-news img {
- width: 80%;
+ width: 75%;
+}
+
+.category-news h2 {
+ color: rgba(120, 120, 120, .4);
 }
 
 .category-news .content {
