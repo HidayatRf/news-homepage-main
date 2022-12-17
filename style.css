@@ -121,6 +121,11 @@ header button {
 	justify-items: start;
 	border-bottom: 2px solid rgba(56, 56, 58, 0.8);
 }
+
+.news-new .content:last-child {
+ border: none;
+ padding-botton: 0;
+}
 /* end of news new */
 
 /* category news */
@@ -129,7 +134,9 @@ header button {
 	row-gap: 30px;
 }
 
-.category-news img { width: 90%; }
+.category-news img {
+ width: 80%;
+}
 
 .category-news .content {
 	display: grid;
